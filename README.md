@@ -1,30 +1,13 @@
 # Red Hat Advanced Cluster Management for Kubernetes documentation
 
-The documentation for Red Hat Advanced Cluster Management for Kubernetes is provided in this repository in markdown (MD) format.
-
-**Note:** This documentation is still a work in progress. Frequent changes and improvements are expected. 
-
-## How to use the Red Hat Advanced Cluster Management for Kubernetes documentation for test-a-thon
-
-**External users only!** Use the [summary.md](https://github.com/open-cluster-management/rhacm-docs/blob/doc_prod/summary.md) file as the table of contents. The production `summary.md` file provides direct linking within the repository to the corresponding files.
-
-Open an issue to submit feedback and change requests, see the [documentation issue template](https://github.com/open-cluster-management/rhacm-docs/issues/new/choose).
-
-As mentioned earlier, this documentation is still a work in progress. If you have suggestions for improvements, feel free to open a documentation issue in the GitHub repository. 
-
-______________________________________________________________________________________________________________________________
-
-**Internal users only**
 
 The documentation for Red Hat Advanced Cluster Management for Kubernetes is accessible by using the information in the following table:
 
-| Release  | Link to production documentation | Link to staging documentation |
-| ------------- | ------------- | ------------ |
-| 1.0 technical preview  | [1.x production splash page](https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes/1.0/) | You might receive a 404 error if you are not logged in to your account with your Red Hat ID. Links that are inside of the staging documentation link to the live documentation, due to the function of the Customer Portal. [About RHACM](https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes/1.0/html-single/about_red_hat_advanced_cluster_management_for_kubernetes/index?lb_target=stage), [Release notes](https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes/1.0/html-single/release_notes/index?lb_target=stage), [Manage applications](https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes/1.0/html-single/manage_applications/index?lb_target=stage), [Manage clusters](https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes/1.0/html-single/manage_cluster/index?lb_target=stage), [Security](https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes/1.0/html-single/security/index?lb_target=stage), [Services](https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes/1.0/html-single/services/index?lb_target=stage), [Web console](https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes/1.0/html-single/web_console/index?lb_target=stage), [Troubleshooting](https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes/1.0/html-single/troubleshooting/index?lb_target=stage), [APIs](https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes/1.0/html-single/apis/index?lb_target=stage) |
+| Release  | Link to production documentation |
+| ------------- | ------------- |
+| 1.0 published documentation |https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes/1.0/
 
 Open an issue with this BACKLOG [documentation issue template](https://github.com/open-cluster-management/backlog/issues/new/choose).
-
-To see the content, (until a link is available), please rely on the table of contents/navigation draft found in the [summary.md](https://github.com/open-cluster-management/rhacm-docs/blob/doc_stage/summary.md) file.
 
 ## For Red Hat Advanced Cluster Management for Kubernetes documentation and developers only
 
@@ -33,8 +16,6 @@ INTERNAL USERS
 **IMPORTANT:** DOC SHUT DOWN three days before GA; please give us time to finalize our documentation and deliver on time.
 
 To ensure product documentation is accessible, accurate, tested, complete, and follows corporate style manual, we need to shut down incoming work three days before GA. Please open issues early and doc test early.
-
-
 
 **RHACM developers:** Please open an issue as normal with the file/content that needs to be added. Label your issue `squad:doc` and give a detailed description of your change. The clearer you are in the description, the quicker we can make the updates. **Please open an issue, not a PR** so that we can make updates as we transition into ASCII doc.
 
@@ -49,9 +30,9 @@ Identify documentation content updates (features, enhancements, and bug fixes) a
    
 **Link issues to commits** This is important for file history and if something has to be undone. Link an issue to a commit, add a reference to the issue to the commit message and a quick note about the update. See the following syntax:
 
-     ```
-     open-cluster-management/backlog#147/#<issue_number> command updated
-     ```     
+   ```
+   open-cluster-management/backlog#147/#<issue_number> command updated
+   ```     
 ### Pull requests
 
    - Dev can use PRs for small content changes. For larger changes, devs can provide the details inside the GitHub issue comment.
@@ -82,7 +63,7 @@ Please `squad:doc` issues where we have a known issue or limitation in the produ
 
 **Note for UI guild:** We have set up numerous doc links from the UI in the course of the product evolution. For LR, these docs will not be live. Brandi will follow up with how these icons/links will be updated for GA. Ping for questions.
 
-**Note: Moving to [AsciiDoc is a text document format](http://asciidoc.org/).** 
+**Note: Documentation is in [AsciiDoc is a text document format](http://asciidoc.org/).** 
 
 ### Writer assignments
 
