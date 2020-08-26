@@ -187,3 +187,6 @@ data:
 ----
 
 When `merge` option is used, entries from subscribed resource are either created or updated in the existing resource. No entry is removed from the existing resource.
+
+*Important:* If the exising resource you want to overwrite with a subscription is automatically reconciled by other operator or controller, the resource configuration
+will be updated by both subscription and the controller or operator. Do not use this method in this case.
