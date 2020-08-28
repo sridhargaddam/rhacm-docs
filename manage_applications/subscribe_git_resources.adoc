@@ -8,7 +8,7 @@ on top of the existing resource to modify. When you create a subscription as a s
 behaviors can be changed.
 
 [#granting-users-and-groups-subscription-admin-privilege]
-==Granting users and groups subscription admin privilege
+== Granting users and groups subscription admin privilege
 
 *Required access:* Cluster administrator
 
@@ -42,7 +42,7 @@ subjects:
 ----
 
 [#namespace-example]
-==Application namespace example
+== Application namespace example
 
 *Applicable channel types:* Git
 
@@ -89,7 +89,7 @@ If the subscription was created by other users, all these config maps get create
 
 
 [#resource-overwrite-example]
-==Resource overwrite example
+== Resource overwrite example
 
 *Applicable channel types:* Git, ObjectBucket
 
